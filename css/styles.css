@@ -74,6 +74,35 @@ section {
   font-size: 0.75rem;
 }
 
+/* MAIN - about-us */
+.about-us {
+  text-align: center;
+}
+.about-us p {
+  margin-top: 20px;
+}
+.about-us input {
+  background-color: #A69687;
+  color: #2F3714;
+  font-weight: 700;
+  padding: 5px;
+}
+
+/*CHARACTERISTICS SECTION - about-us*/
+.characteristics-section .benefits, .characteristics-section .user-experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.characteristics-section h4 {
+  font-weight: 700;
+  text-align: center;
+}
+.characteristics-section ul {
+  list-style: none;
+  padding: 5px 10px;
+}
+
 /* FOOTER */
 #footer {
   padding: 20px 0;
@@ -92,8 +121,9 @@ section {
   width: 100%;
   margin: 0;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
 }
 #footer .footer-media .direction {
   display: flex;
