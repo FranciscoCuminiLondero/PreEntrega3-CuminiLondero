@@ -131,6 +131,42 @@ section {
     }
 }
 
+/*MAIN - contact*/
+.contact-form {
+    text-align: center;
+    label, span {
+        background-color: $color-dun;
+        color: $color-eerieblack;
+    }
+    button {
+        margin-top: 10px;
+        background-color: $color-beaver;
+        border-color: $color-eerieblack;
+    }
+}
+
+.branch-map {
+    h2 {
+        text-align: center;
+    }
+}
+
+.contact {
+    text-align: center;
+    font-size: 1.5rem;
+    ul {
+        list-style: none;
+        li a {
+            text-decoration: none;
+            color: $color-eerieblack;
+        }
+        span {
+            font-weight: 700;
+            padding-left: 5px;
+        }
+    }
+}
+
 /* FOOTER */
 #footer {
     padding: 20px 0;

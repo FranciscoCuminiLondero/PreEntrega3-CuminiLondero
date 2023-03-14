@@ -118,6 +118,40 @@ section {
   list-style: none;
 }
 
+/*MAIN - contact*/
+.contact-form {
+  text-align: center;
+}
+.contact-form label, .contact-form span {
+  background-color: #d1c6b8;
+  color: #1D1F12;
+}
+.contact-form button {
+  margin-top: 10px;
+  background-color: #A69687;
+  border-color: #1D1F12;
+}
+
+.branch-map h2 {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.contact ul {
+  list-style: none;
+}
+.contact ul li a {
+  text-decoration: none;
+  color: #1D1F12;
+}
+.contact ul span {
+  font-weight: 700;
+  padding-left: 5px;
+}
+
 /* FOOTER */
 #footer {
   padding: 20px 0;
