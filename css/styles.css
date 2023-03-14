@@ -103,6 +103,21 @@ section {
   padding: 5px 10px;
 }
 
+/*MAIN - branch-offices*/
+.branch-map i {
+  color: red;
+}
+.branch-map ol {
+  list-style: none;
+}
+.branch-map ol span {
+  padding-left: 5px;
+  font-weight: 700;
+}
+.branch-map ul {
+  list-style: none;
+}
+
 /* FOOTER */
 #footer {
   padding: 20px 0;
